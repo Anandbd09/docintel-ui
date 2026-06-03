@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // export const API_BASE = "http://localhost:8080";
-export const API_BASE = "http://18.212.116.23:8080";
+// export const API_BASE = "http://18.212.116.23:8080";
+export const API_BASE = "https://armipotent-leoma-unmitigated.ngrok-free.dev";
 
 export const api = axios.create({
   baseURL: API_BASE,
